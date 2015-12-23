@@ -1,3 +1,3 @@
 Next:
--set up map of image resource names and audio (SoundPool?) instances
 -add appropriate quotes
+-figure out why layout has some stuff I hadn't put in it
