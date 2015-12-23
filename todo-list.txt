@@ -1,5 +1,4 @@
 Next:
--confirm that can get resource from string name of it
 -set up map of image resource names and audio (SoundPool?) instances
 -set up left and right UI arrows that change the current map index
 -add button showing the image of the speaker
