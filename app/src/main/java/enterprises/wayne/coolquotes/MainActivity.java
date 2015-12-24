@@ -55,7 +55,20 @@ public class MainActivity extends Activity {
      */
     private void loadImageNames() {
         mImageNames = new ArrayList<String>();
-        mImageNames.add("jeselnik");
+
+        mImageNames.add("robot_krabs");
+        mImageNames.add("jackal");
+        mImageNames.add("yup");
+        mImageNames.add("nope");
+
+        /**
+         * These speakers' corresponding quotes contain explicit language.
+         * Because I don't want to risk getting into trouble, their
+         * quotes are not included in the Git repository.
+         */
+        // mImageNames.add("explicit_jeselnik");
+        // mImageNames.add("explicit_randy");
+        // mImageNames.add("explicit_got_you_there");
     }
 
     /**
@@ -99,12 +112,26 @@ public class MainActivity extends Activity {
         }
     }
 
+    /**
+     * @param view
+     * @post current speaker has been switched to one before it
+     */
     public void onPreviousClick(View view) {
-
+        --mCurrentIndex;
+        if (mCurrentIndex < 0)
+            mCurrentIndex = mImageNames.size() - 1;
+        updateSpeaker();
     }
 
+    /**
+     * @param view
+     * @post current speaker has been switched to one after it
+     */
     public void onNextClick(View view) {
-
+        ++mCurrentIndex;
+        if (mCurrentIndex > mImageNames.size() - 1)
+            mCurrentIndex = 0;
+        updateSpeaker();
     }
 
     /**
