@@ -1,2 +1,5 @@
 Next:
 -figure out why layout has some stuff I hadn't put in it
+-lock the layout to fullscreen and portrait
+-add quotes
+-comment out the explicit quotes
