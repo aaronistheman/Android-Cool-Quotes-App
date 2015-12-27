@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.content_main);
 
         setUpUIComponents();
 
@@ -60,15 +60,17 @@ public class MainActivity extends Activity {
         mImageNames.add("jackal");
         mImageNames.add("yup");
         mImageNames.add("nope");
+        mImageNames.add("fallon");
 
         /**
          * These speakers' corresponding quotes contain explicit language.
          * Because I don't want to risk getting into trouble, their
-         * quotes are not included in the Git repository.
+         * quotes are not included in the Git repository (and are
+         * ignored by use of .gitignore file and "explicit_" prefix).
          */
-        // mImageNames.add("explicit_jeselnik");
-        // mImageNames.add("explicit_randy");
-        // mImageNames.add("explicit_got_you_there");
+        mImageNames.add("explicit_jeselnik");
+        mImageNames.add("explicit_randy");
+        mImageNames.add("explicit_got_you_there");
     }
 
     /**
