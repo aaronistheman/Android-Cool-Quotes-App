@@ -24,7 +24,7 @@ I wrote none.
 Releases
 --------
 
-Latest: v0.1
+Latest: v0.2
 
 Please see the releases section of this project's Git repository
 on GitHub for latest release.
