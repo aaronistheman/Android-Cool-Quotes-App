@@ -68,9 +68,10 @@ public class MainActivity extends Activity {
          * quotes are not included in the Git repository (and are
          * ignored by use of .gitignore file and "explicit_" prefix).
          */
-        mImageNames.add("explicit_jeselnik");
-        mImageNames.add("explicit_randy");
-        mImageNames.add("explicit_got_you_there");
+        // mImageNames.add("explicit_jeselnik");
+        // mImageNames.add("explicit_randy");
+        // mImageNames.add("explicit_got_you_there");
+        // mImageNames.add("explicit_lovitz");
     }
 
     /**

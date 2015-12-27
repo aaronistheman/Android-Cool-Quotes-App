@@ -8,6 +8,9 @@ the user can summon the potentially useful words of someone (e.g. the rapper E-4
 I programmed it during the late December of 2015, during my freshman
 year in college.
 
+A demonstrative YouTube video can be found here:
+https://www.youtube.com/watch?v=MW6ngImf4jM
+
 Features
 --------
 
