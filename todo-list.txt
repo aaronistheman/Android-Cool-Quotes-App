@@ -1,2 +1,2 @@
 Next:
--figure out why layout has some stuff I hadn't put in it
+-comment out the explicit quotes
